@@ -1,0 +1,53 @@
+/* responsive */
+
+@media(max-width: 992px) {
+    .section-div img {
+        display: none;
+
+    }
+
+    .section-div {
+        background-image: url(../imgs/wepik-export-2023050922522927iT.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header .first-navigation {
+        display: none;
+
+    }
+
+    header i {
+        color: #f7f7f7;
+        font-size: 3rem;
+    }
+
+    header .first-navigation.Activated {
+        background-color: rgb(22, 20, 20);
+        position: absolute;
+        display: grid;
+        top: 80px;
+        color: whitesmoke;
+        z-index: 1;
+        padding: 30px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 0 0 4px 4px;
+        right: 20px;
+        animation: upSection .8s ease-in-out forwards;
+    }
+
+
+
+}
+
+@media (max-width: 992px) {
+    .about img {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    .about-content {
+        grid-column: 1/-1;
+    }
+}
